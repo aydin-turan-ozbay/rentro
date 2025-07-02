@@ -332,9 +332,9 @@ body {
 }
 
 .attributes h3 {
-  color: red;
-  font-size: 20px;
-  font-weight: bold;
+    margin-top: 6px;
+    color: red;
+    font-size: 20px;
 }
 
 .attributes:hover {
@@ -594,6 +594,41 @@ h2 {
   font-size: 20px;
 }
 
+.carousel-inner {
+    background-color: #2c2e3e;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+.carousel-item h5 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.carousel-item p {
+    color: rgb(59, 187, 43);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+  .main-photo img.big {
+      width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .small-photos img {
+      cursor: pointer;
+      max-height: 100px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .small-photos .carousel-item > div {
+      padding: 5px;
+    }
+
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .footer-top {
@@ -816,7 +851,6 @@ h2 {
     width: 90%;
   }
 }
-
 
 
 
